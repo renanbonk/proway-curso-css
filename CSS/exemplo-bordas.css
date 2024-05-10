@@ -1,0 +1,65 @@
+.borda-topo,
+.borda-direita,
+.borda-base,
+.borda-esquerda,
+.borda-dotted,
+.borda-dashed,
+.borda-double,
+.borda-completa
+{
+display: block;
+}
+
+
+.borda-topo {
+    border-top: 1px;
+    border-top-color: rgb(51, 17, 219);
+    border-top-style: solid;
+}
+
+.borda-direita {
+    border-right-width: 4px;
+    border-right-color: chartreuse;
+    border-right-style: solid;
+}
+
+.borda-base {
+    border-bottom-width: 3px;
+    border-bottom-color: rgb(255, 17, 17);
+    border-bottom-style: solid;
+}
+
+.borda-esquerda {
+    border-left-width: 2px;
+    border-left-color: rgb(255, 0, 162);
+    border-left-style: solid;
+}
+
+.borda-completa {
+    border-top: 3px solid rgb(84, 74, 134);
+    border-right: 3px solid rgb(84, 74, 134);
+    border-bottom: 3px solid rgb(84, 74, 134);
+    border-left: 3px solid rgb(84, 74, 134);
+}
+
+
+.borda-dashed {
+    border-top: 3px dashed rgb(3, 1, 12);
+    border-right: 3px dashed rgb(53, 213, 9);
+    border-bottom: 3px dashed rgb(255, 6, 19);
+    border-left: 3px dashed rgb(242, 210, 0);
+}
+
+.borda-dotted {
+    border-top: 3px dotted rgb(3, 1, 12);
+    border-right: 3px dotted rgb(53, 213, 9);
+    border-bottom: 3px dotted rgb(255, 6, 19);
+    border-left: 3px dotted rgb(242, 210, 0);
+}
+
+.borda-double {
+    border-top: 3px double rgb(3, 1, 12);
+    border-right: 3px double rgb(53, 213, 9);
+    border-bottom: 3px double rgb(255, 6, 19);
+    border-left: 3px double rgb(242, 210, 0);
+}
