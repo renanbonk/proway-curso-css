@@ -1,0 +1,11 @@
+.transition-box{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    transition: background-color 2s, transform 4s;
+}
+
+.transition-box:hover{
+    background-color: yellow;
+    transform: rotate(90deg);
+}

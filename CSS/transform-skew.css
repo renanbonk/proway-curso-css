@@ -1,0 +1,10 @@
+.skew{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    transition: transform 2s ease-in;
+}
+
+.skew:hover{
+    transform: skew(20deg, 10deg);/* inclina 20 graus no eixo x graus no eixoy*/
+}
